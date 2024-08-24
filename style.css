@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: gray; /* Background color */
+  }
+  
+  #pixel-art {
+    display: grid;
+    grid-template-columns: repeat(29, 1fr); /* 29 columns */
+    grid-template-rows: repeat(29, 1fr); /* 29 rows */
+    gap: 1px; /* Gap between pixels */
+  }
+  
+  .pixel {
+    width: 20px; /* Size of each pixel block */
+    height: 20px; /* Size of each pixel block */
+    background-color: white; /* Default color */
+  }
